@@ -1,4 +1,4 @@
-/*
+ /*
 Clase 26 - Sets 
 Vídeo: https://youtu.be/1glVfFxj8a4?t=9952
 */
@@ -19,7 +19,7 @@ console.log(mySet)
 
 // Métodos comunes
 
-// add y delete
+// add y delete añade y elimina elementos del set al final respectivamente
 
 mySet.add("https://moure.dev")
 
@@ -34,12 +34,12 @@ console.log(mySet.delete(4))
 
 console.log(mySet)
 
-// has
+// has comprueba si un elemento existe en el set
 
 console.log(mySet.has("Moure"))
 console.log(mySet.has("Brais"))
 
-// size
+// size devuelve el número de elementos del set es decir la longitud
 
 console.log(mySet.size)
 

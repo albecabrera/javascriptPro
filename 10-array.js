@@ -52,7 +52,7 @@ console.log(myArray)
 
 myArray = []
 
-// push y pop
+// push y pop adiciona y elimina elementos al final del array
 
 myArray.push("Brais")
 myArray.push("Moure")
@@ -69,7 +69,7 @@ myArray.pop()
 
 console.log(myArray)
 
-// shift y unshift
+// shift y unshift adiciona y elimina elementos al principio del array
 
 console.log(myArray.shift())
 console.log(myArray)
@@ -77,17 +77,17 @@ console.log(myArray)
 myArray.unshift("Brais", "mouredev")
 console.log(myArray)
 
-// length
+// length Mide la longitud del array
 
 console.log(myArray.length)
 
-// clear
+// clear 
 
 myArray = []
 myArray.length = 0 // alternativa
 console.log(myArray)
 
-// slice
+// slice f
 
 myArray = ["Brais", "Moure", "mouredev", 37, true]
 
@@ -106,8 +106,3 @@ myArray = ["Brais", "Moure", "mouredev", 37, true]
 myArray.splice(1, 2, "Nueva entrada")
 console.log(myArray)
 
-// Haciendo una prueba con los arreglos
-miArreglo =["!Hola", "mundo", "desde", "JavaScript!"]
-console.log(miArreglo)
-console.log(miArreglo[2])
-console.log(miArreglo[3])   
