@@ -6,7 +6,7 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=12829
 // Funciones
 
 // Simple
-
+   
 function myFunc() {
     console.log("¡Hola, función!")
 }
