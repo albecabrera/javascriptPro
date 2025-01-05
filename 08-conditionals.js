@@ -38,7 +38,7 @@ console.log(message)
 
 // switch
 
-let day = 3
+let day = 5
 let dayName
 
 switch (day) {
