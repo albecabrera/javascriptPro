@@ -4,6 +4,17 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=15675
 */
 
 // 1. Crea un objeto con 3 propiedades
+let work = {
+    software: 'Developer',
+    apps: 'Web',
+    languages: 'JavaScript',
+    especialty: {
+        wab: 'Frontend',
+        mobile: 'React Native'
+    },
+    console.log(especialty.mobile)
+    }  
+console.log(work.software);
 
 // 2. Accede y muestra su valor
 

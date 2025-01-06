@@ -8,7 +8,7 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=14229
 // Sintaxis
 
 let person = {
-    name: "Brais",
+    name: "Brais", 
     age: 37,
     alias: "MoureDev"
 }
@@ -109,7 +109,7 @@ for (let key in person4) {
 function Person(name, age) { // Debería ser una clase
     this.name = name
     this.age = age
-}
+} 
 
 let person5 = new Person("Brais", 37)
 console.log(person5)
