@@ -10,7 +10,7 @@ let person = {
     age: 37,
     alias: "MoureDev"
 }
-
+ 
 let myValue = myArray[1]
 console.log(myValue)
 
@@ -119,3 +119,18 @@ console.log(person4)
 let person5 = { ...person }
 
 console.log(person5)
+
+// Practicar después de la clase Albe
+// 1. Crear un objeto con 3 propiedades
+// 2. Desestructurar el objeto
+// 3. Crear un objeto anidado
+let objeto = {
+    propiedad1: "valor1",
+    propiedad2: "valor2",
+    propiedad3: "valor3",
+    objetoAnidado: {
+        propiedad4: "valor4",
+        propiedad5: "valor5"
+    }
+}
+console.log(objeto);
